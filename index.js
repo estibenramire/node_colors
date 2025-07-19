@@ -36,7 +36,6 @@ app.use((req, res) => {
     );
 });
 
-//port
 app.listen(PORT, () => {
     console.log(`Conexion en el Puerto ${PORT}`);
 });
